@@ -1,0 +1,50 @@
+/**********************************/
+/* GENERAL STYLES                */
+/****************************** */
+
+:root {
+  /* primary color */
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+
+  /* typography */
+  --ff-heading: "Poppins", sans-serif;
+  --ff-body: "Open sans", sans-serif;
+
+  --fw-regular: 400;
+  --fw-semibold: 600;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 10px of 16px = 62.5% */
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--ff-body);
+  font-weight: var(--fw-regular);
+  line-height: 1.2;
+  background: var(--violet);
+  background-image: url(/images/bg-desktop.svg);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
