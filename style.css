@@ -33,11 +33,73 @@ body {
   line-height: 1.2;
   background: var(--violet);
   background-image: url(/images/bg-desktop.svg);
+  min-height: 100vh;
 }
 
 .container {
   max-width: 120rem;
   margin: 0 auto;
+}
+
+/**********************************/
+/* HEADER                        */
+/****************************** */
+
+.header {
+  padding: 3.2rem 0;
+}
+
+.logo {
+  width: 17rem;
+  height: 4rem;
+}
+
+/**********************************/
+/* MAIN                          */
+/****************************** */
+
+.hero__content {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  align-items: center;
+  /* column-gap: 4rem; */
+}
+
+/* .hero__img-box {
+}
+
+.illustration-mockup {
+  width: 60rem;
+} */
+
+.hero__text-box {
+  /* margin-top: 4.4rem; */
+  align-self: flex-start;
+
+  padding: 4.4rem 4rem;
+  color: white;
+}
+
+.hero__text-box h1 {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  box-shadow: inset;
+}
+
+.hero__text-box p {
+  line-height: 1.5;
+  margin-bottom: 3.2rem;
+  box-shadow: inset;
+}
+
+.btn {
+  padding: 1.2rem 4.4rem;
+  background-color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--violet);
+  box-shadow: inset;
 }
 
 .attribution {
